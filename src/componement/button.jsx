@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { motion } from "framer-motion";
-import "./style.css";
+import "./style.nodule.css";
 //je creer ma fonction bouton qui incremente, decremente, et reset avec une boucle if* pour eviter que le compteur ne passe en dessou de zero 
 function Button() {
   const [count, setcount] = useState(0);
